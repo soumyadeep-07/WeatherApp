@@ -12,11 +12,6 @@ This is a weather app that provides real-time weather information based on the u
 ## Architecture
 The app follows the MVVM architectural pattern, separating the application logic into three main components:
 
-### ViewModel
-- Acts as a bridge between the Model and the View, handling UI-related logic.
-- LiveData is used to observe changes in the underlying data and update the UI accordingly.
-- Coroutine is used for asynchronous operations, ensuring a responsive user interface.
-
 ## Libraries and Technologies
 - **Android Architecture Components:** LiveData, ViewModel, Room Database.
 - **Coroutines:** For asynchronous programming and background tasks.
